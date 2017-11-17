@@ -20,24 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Hello\\": "src/"
-    }
-  },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.phpcomposer.com"
-    }
-  },
-  "autoload": {
-    "psr-4": {
       "Hello\\Widgets\\": "src/"
-    }
-  },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.phpcomposer.com"
     }
   }
 }
