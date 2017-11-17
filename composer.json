@@ -1,32 +1,32 @@
 {
-  "name": "layuiyii/hello",
-  "description": "echo hello world",
-  "keywords": ["layui", "yii", "test"],
-  "homepage": "http://laravelacademy.org",
-  "license": "MIT License",
-  "authors": [
-    {
-      "name": "zhanghognbo",
-      "email": "zhanghognbo@163.com"
+    "name": "layuiyii/hello",
+    "description": "echo hello world",
+    "keywords": ["layui", "yii", "test"],
+    "homepage": "http://laravelacademy.org",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "zhanghognbo",
+            "email": "zhanghognbo@163.com"
+        }
+    ],
+    "support": {
+        "email": "taobao1875@163.com"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "yiisoft/yii2": "~2.0.6",
+        "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Hello\\Widgets\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+          "type": "composer",
+          "url": "https://packagist.phpcomposer.com"
+        }
     }
-  ],
-  "support": {
-    "email": "taobao1875@163.com"
-  },
-  "minimum-stability": "master",
-  "require-dev": {
-    "yiisoft/yii2": "~2.0.6",
-    "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Hello\\Widgets\\": "src/"
-    }
-  },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.phpcomposer.com"
-    }
-  }
 }
