@@ -1,5 +1,5 @@
 
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
-use Hello\SayHello;
+use hello\widgets\SayHello;
 echo SayHello::world();

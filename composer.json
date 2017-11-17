@@ -14,7 +14,10 @@
     "email": "taobao1875@163.com"
   },
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "yiisoft/yii2": "~2.0.6",
+    "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*"
+  },
   "autoload": {
     "psr-4": {
       "Hello\\": "src/"
@@ -28,7 +31,13 @@
   },
   "autoload": {
     "psr-4": {
-      "LaravelAcademy\\UrlScanner\\": "src/"
+      "Hello\\Widgets\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
     }
   }
 }

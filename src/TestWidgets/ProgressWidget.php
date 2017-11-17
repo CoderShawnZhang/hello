@@ -3,9 +3,12 @@
 /**
  *
  */
-namespace app\TestWidgets;
+namespace hello\widgets\TestWidgets;
 
-class ProgressWidget extends \yii\base\Widget
+
+use yii\base\Widget;
+
+class ProgressWidget extends Widget
 {
     public $message;
 
