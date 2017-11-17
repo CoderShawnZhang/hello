@@ -7,7 +7,7 @@
   "authors": [
     {
       "name": "zhanghognbo",
-      "email": "zhanghognbo@chenjie.info"
+      "email": "zhanghognbo@163.com"
     }
   ],
   "support": {
@@ -21,6 +21,12 @@
   "autoload": {
     "psr-4": {
       "Hello\\Widgets\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
     }
   }
 }
